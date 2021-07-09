@@ -1,0 +1,23 @@
+// Color variables
+
+$charcoal: #777;
+$skyblue: #51ddfc;
+$green: #58e1c1;
+$red: #e4757a;
+$purple: #927bc1;
+$white: #fff;
+
+//Font stacks
+
+$stack-sans-serif: sans-serif;
+$stack-lato: 'Lato', $stack-sans-serif;
+
+// Button hover
+
+$hover: lighten($skyblue, 15%);
+
+
+// Media query breakpoint
+
+$brk: '(min-width: 768px)';
+

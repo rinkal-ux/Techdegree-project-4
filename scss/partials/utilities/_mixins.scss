@@ -1,0 +1,7 @@
+// image mixins
+
+@mixin center-positioning{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

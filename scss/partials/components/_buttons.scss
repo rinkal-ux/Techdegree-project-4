@@ -1,0 +1,35 @@
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color .2s ease-in-out, color .2s ease-in-out;
+    &:hover{
+     background-color: $hover;
+    }
+  }
+  
+  .default {
+    background-color: $skyblue;
+  }
+  
+  .error {
+    background-color: $red;
+  }
+  
+  .info {
+    background-color: $purple;
+  }
+  
+  .success {
+    background-color: #63cc82;
+  }
+  
+  .warning {
+    background-color: #fd7856;
+  }
+  
+  
