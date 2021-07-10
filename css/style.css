@@ -444,37 +444,61 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  transition: background-color .2s ease-in-out, color .2s ease-in-out;
 }
 
-/* line 10, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
-.btn:hover {
-  background-color: #9cecfd;
+/* line 11, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+.default {
+  background-color: #51ddfc;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
 /* line 15, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
-.default {
-  background-color: #51ddfc;
+.default:hover {
+  background-color: white;
 }
 
-/* line 19, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+/* line 20, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+/* line 24, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+.error:hover {
+  background-color: white;
+}
+
+/* line 29, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+/* line 33, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+.info:hover {
+  background-color: white;
+}
+
+/* line 38, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+/* line 42, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #fdfefd;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+}
+
+/* line 51, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: white;
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/rinkalshah/Documents/style_guide_v7/Techdegree-project-4/scss/components/_forms.scss */
