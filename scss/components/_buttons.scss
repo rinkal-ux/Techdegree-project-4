@@ -1,56 +1,49 @@
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: $white;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
-  }
-  
-  .default {
-    background-color: $skyblue;
-    transition: background-color .2s ease-in-out, 
-                color .2s ease-in-out;
-    &:hover {
-      background-color: lighten($skyblue, 40%);
-     }
-  }
-  
-  .error {
-    background-color: $red;
-    transition: background-color .2s ease-in-out, 
-                color .2s ease-in-out;
-    &:hover {
-      background-color: lighten($red, 40%);
-     }
-  }
-  
-  .info {
-    background-color: $purple;
-    transition: background-color .2s ease-in-out, 
-                color .2s ease-in-out;
-    &:hover {
-      background-color: lighten($purple, 40%);
-     }
-  }
-  
-  .success {
-    background-color: #63cc82;
-    transition: background-color .2s ease-in-out, 
-                color .2s ease-in-out;
-    &:hover {
-      background-color: lighten(#63cc82, 40%);
-     }
-  }
-  
-  .warning {
-    background-color: #fd7856;
-    transition: background-color .2s ease-in-out, 
-                color .2s ease-in-out;
-    &:hover {
-      background-color: lighten(#fd7856, 40%);
-     }
-  }
-  
-  
+	margin-top: 15px;
+	width: 100%;
+	color: $white;
+	border: none;
+	padding: 10px 0;
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+.default {
+	background-color: $skyblue;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	&:hover {
+		background-color: lighten($skyblue, 15%);
+	}
+}
+
+.error {
+	background-color: $red;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	&:hover {
+		background-color: lighten($red, 15%);
+	}
+}
+
+.info {
+	background-color: $purple;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	&:hover {
+		background-color: lighten($purple, 15%);
+	}
+}
+
+.success {
+	background-color: #63cc82;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	&:hover {
+		background-color: lighten(#63cc82, 15%);
+	}
+}
+
+.warning {
+	background-color: #fd7856;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	&:hover {
+		background-color: lighten(#fd7856, 15%);
+	}
+}
